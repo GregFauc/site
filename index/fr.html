@@ -59,11 +59,11 @@
 
 
 <!-- Sur votre page index -->
-<a href="https://gregfauc.github.io/site/index/fr"><button>french</button></a>
-
-<!-- Sur votre page traduite -->
-<a href="https://gregfauc.github.io/site/index"><button>English</button></a>
-  
+<a[href="https://gregfauc.github.io/site/index/fr"] button,
+a[href="https://gregfauc.github.io/site/index"] button {
+    position: relative; /* Assurez-vous que les boutons ont une position relative ou absolue */
+    z-index: 9999; /* Définissez un z-index élevé pour les boutons */
+}
   
   <!-- Google Tag Manager (noscript) -->
       <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZQHF6W"
